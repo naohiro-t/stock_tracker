@@ -10,6 +10,11 @@ end
 gem 'rails', '~> 5.1.3'
 # password
 gem 'bcrypt', '~> 3.1.7'
+# create user
+gem 'devise'
+
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
