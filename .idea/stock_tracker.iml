@@ -48,10 +48,12 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.3.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise-bootstrap-views (v0.0.11, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.20170404, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.6.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.18, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.0, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.3, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.8.6, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.7.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="less (v2.6.0, RVM: ruby-2.4.0) [gem]" level="application" />
@@ -66,6 +68,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.2.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.10.3, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.2, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.11.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.1.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.8.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, RVM: ruby-2.4.0) [gem]" level="application" />
@@ -85,6 +88,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.2, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.10, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.0, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v2.0.2, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.5.1, RVM: ruby-2.4.0) [gem]" level="application" />
@@ -96,6 +100,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.13, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="stock_quote (v1.4.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.8, RVM: ruby-2.4.0) [gem]" level="application" />
@@ -104,6 +109,8 @@
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v4.0.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.3, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.2.0, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.7.4, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.7, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v3.5.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.6.5, RVM: ruby-2.4.0) [gem]" level="application" />
