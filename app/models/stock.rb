@@ -21,12 +21,21 @@ class Stock < ActiveRecord::Base
 
   # get stock price
   def price
-    last_price = StockQuote::Stock.quote(ticker).close
-    # if closing price is nil, get open price
-    if !last_price
-      last_price = StockQuote::Stock.quote(ticker).open
-    end
-    return last_price
+    closing_price = StockQuote::Stock.quote(ticker).close
+    return "#{closing_price} (Closing)" if closing_price
+
+    opening_price = StockQuote::Stock.quote(ticker).open
+    return "#{opening_price} (Opening)" if opening_price
+    'Unavailable'
   end
+
+  # def price
+  #   last_price = StockQuote::Stock.quote(ticker).close
+  #   # if closing price is nil, get open price
+  #   if !last_price
+  #     last_price = StockQuote::Stock.quote(ticker).open
+  #   end
+  #   return last_price
+  # end
 
 end
