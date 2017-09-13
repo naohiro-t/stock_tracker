@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
+  # this controllers => { :registrations => 'user/registrations'} means
+  # look at the registrations controller in user first
+  devise_for :users, :controllers => { :registrations => 'user/registrations'}
   resources :user_stocks, except: [:show, :edit, :update]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
