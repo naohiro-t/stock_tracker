@@ -1,5 +1,8 @@
 class Stock < ActiveRecord::Base
 
+  has_many :user_stocks
+  has_many :users, through: :user_stocks
+
   # this method is to query data from db
   def self.find_by_ticker(ticker_symbol)
     where(ticker: ticker_symbol).first
