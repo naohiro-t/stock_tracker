@@ -1,13 +1,24 @@
 var init_stock_lookup;
 init_stock_lookup = function(){
+    //show spinner while looking up stock
+    $('#stock-lookup-form').on('ajax:before', function(event,data,status){
+        show_spinner();
+    });
+    //hide spinner after looking up stock
+    $('#stock-lookup-form').on('ajax:after', function(event,data,status){
+        hide_spinner();
+    });
+
+    //found stock and show the result
     $('#stock-lookup-form').on('ajax:success', function(event, data, status, xhr){
         $('#stock-lookup').replaceWith(event.detail[2].responseText);
         init_stock_lookup();
     });
-    //handle error
+    //handle error not found stock
     $('#stock-lookup-form').on('ajax:error', function(event, xhr, status, error){
-        $('#stock-lookup-results').replaceWith('');
-        $('stock-lookup-errors').replaceWith('Stock was not found');
+        hide_spinner();
+        $('#stock-lookup-results').replaceWith(' ');
+        $('#stock-lookup-errors').replaceWith('Stock was not found');
     });
 };
 $(document).ready(function(){
