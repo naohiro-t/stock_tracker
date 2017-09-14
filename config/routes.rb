@@ -11,4 +11,6 @@ Rails.application.routes.draw do
 
   get 'search_stocks', to: 'stocks#search'
 
+  get 'my_friends', to: 'users#my_friends'
+
 end
