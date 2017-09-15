@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   # look at the registrations controller in user first
   devise_for :users, :controllers => { :registrations => 'user/registrations'}
   resources :user_stocks, except: [:show, :edit, :update]
+  resources :users, only: [:show]
+  resources :friendship
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   root 'welcome#index'
@@ -12,5 +14,6 @@ Rails.application.routes.draw do
   get 'search_stocks', to: 'stocks#search'
 
   get 'my_friends', to: 'users#my_friends'
+
 
 end
